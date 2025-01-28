@@ -4,3 +4,4 @@
 4 cat datos.txt | grep -iw "prog$" | wc -l
 5 cat datos.txt | grep -i ".es" | cut -d"," -f2 | awk '{print $1}'
 6  cat datos.txt | sed 's/.com/.net/g' 
+7 cat datos.txt | grep -i "-" | wc -l  
