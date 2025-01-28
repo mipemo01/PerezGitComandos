@@ -6,3 +6,4 @@
 6  cat datos.txt | sed 's/.com/.net/g' 
 7 cat datos.txt | grep -i "-" | wc -l  
 8 cat datos.txt | awk -F"," '{if ($3 < 40) print $2, $3}' 
+9 cat datos.txt | sed 's/ /*/g' | sed 's/-/*/g'  
